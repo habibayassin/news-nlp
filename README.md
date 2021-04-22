@@ -14,19 +14,25 @@ Remember that once you clone, you will still need to install everything:
 - ```npm start``` to start the app
 -  default port is 8081
 
-### Step 2: Edit env variable
-- You need to create .env file anf put the API-id and API-key you take from MeaningCloud.
+### Step 2: Set API_KEY
+- create .env file and add API-key you take from MeaningCloud license key.
 - API_KEY=**************************
 
 ### Step 3: Running app
-##Development environment
+- Development environment
 * To run this application in development enviroment: 
 ```bash
 npm run build-dev
 ```
 
-##Production environment
+- Production environment
 * To run this application in producion enviroment:
 ```bash
 npm run build-prod
+```
+
+- Testing
+* To run tests:
+```bash
+npm test
 ```
