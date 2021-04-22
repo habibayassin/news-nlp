@@ -19,19 +19,19 @@ Remember that once you clone, you will still need to install everything:
 - API_KEY=**************************
 
 ### Step 3: Running app
-- Development environment
+####Development environment
 * To run this application in development enviroment: 
 ```bash
 npm run build-dev
 ```
 
-- Production environment
+####Production environment
 * To run this application in producion enviroment:
 ```bash
 npm run build-prod
 ```
 
-- Testing
+####Testing
 * To run tests:
 ```bash
 npm test
